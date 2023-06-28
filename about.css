@@ -1,0 +1,110 @@
+body {
+  padding: 0px;
+  margin: 0px;
+}
+
+.menu-bar {
+  height: 20vh;
+  display: flex;
+  flex-direction: row;
+}
+
+#home {
+  padding-left: 32vw;
+  padding-top: 4vh;
+  padding-right: 2vw;
+  font-size: x-large;
+  color: cornflowerblue;
+  text-decoration: none;
+}
+
+#portfolio {
+  padding-left: 2vw;
+  padding-top: 4vh;
+  padding-right: 2vw;
+  font-size: x-large;
+  color: cornflowerblue;
+  text-decoration: none;
+}
+
+#about {
+  padding-left: 2vw;
+  padding-top: 4vh;
+  padding-right: 2vw;
+  font-size: x-large;
+  color: cornflowerblue;
+  text-decoration: none;
+}
+
+#testimonials {
+  padding-left: 2vw;
+  padding-top: 4vh;
+  padding-right: 2vw;
+  font-size: x-large;
+  color: cornflowerblue;
+  text-decoration: none;
+}
+
+#contact {
+  border: 1px solid cornflowerblue;
+  background-color: cornflowerblue;
+  border-radius: 10px;
+  text-align: center;
+  width: 100px;
+  height: 35px;
+  padding-left: 2vw;
+  margin-top: 2vh;
+  font-size: x-large;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+}
+
+#home:hover,
+#portfolio:hover,
+#about:hover,
+#testimonials:hover,
+#contact:hover,
+#home:active,
+#portfolio:active,
+#about:active,
+#testimonials:active,
+#contact:active {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.about-chris {
+  text-align: center;
+  font-size: 45px;
+  letter-spacing: 0.1vw;
+}
+
+.essay {
+  padding-left: 15vw;
+  padding-right: 15vw;
+  font-size: 1.25em;
+  letter-spacing: 0.05vw;
+}
+
+.photo-para {
+  display: flex;
+  flex-direction: row;
+}
+
+.photo {
+  padding-left: 15vw;
+  margin-top: 17px;
+  margin-right: 10px;
+}
+
+#bund {
+  height: 12vh;
+  width: 10vw;
+}
+
+.first-para {
+  padding-right: 15vw;
+  font-size: 1.25em;
+  letter-spacing: 0.05vw;
+}
