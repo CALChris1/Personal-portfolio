@@ -9,9 +9,16 @@ body {
   flex-direction: row;
 }
 
+.logo {
+  height: 14vh;
+  width: 12vw;
+  padding: 15px;
+  padding-left: 2vw;
+}
+
 #home {
-  padding-left: 32vw;
-  padding-top: 4vh;
+  padding-left: 36vw;
+  padding-top: 5vh;
   padding-right: 2vw;
   font-size: x-large;
   color: cornflowerblue;
@@ -20,7 +27,7 @@ body {
 
 #portfolio {
   padding-left: 2vw;
-  padding-top: 4vh;
+  padding-top: 5vh;
   padding-right: 2vw;
   font-size: x-large;
   color: cornflowerblue;
@@ -29,7 +36,7 @@ body {
 
 #about {
   padding-left: 2vw;
-  padding-top: 4vh;
+  padding-top: 5vh;
   padding-right: 2vw;
   font-size: x-large;
   color: cornflowerblue;
@@ -38,7 +45,7 @@ body {
 
 #testimonials {
   padding-left: 2vw;
-  padding-top: 4vh;
+  padding-top: 5vh;
   padding-right: 2vw;
   font-size: x-large;
   color: cornflowerblue;
@@ -53,7 +60,7 @@ body {
   width: 100px;
   height: 35px;
   padding-left: 2vw;
-  margin-top: 2vh;
+  margin-top: 3vh;
   font-size: x-large;
   padding: 10px;
   color: white;
@@ -72,4 +79,144 @@ body {
 #contact:active {
   text-decoration: underline;
   font-weight: bold;
+}
+
+.introduction {
+  display: flex;
+  height: 10vh;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  flex-direction: column;
+}
+
+.learning {
+  font-size: 3em;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.description {
+  align-self: center;
+  font-size: 1.25em;
+  letter-spacing: 0.05vw;
+}
+
+.boxes {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  padding-top: 7vh;
+}
+
+.box1 {
+  width: 25%;
+  flex: 1;
+  border: 1px solid #f9f9f9;
+  background-color: #f9f9f9;
+  margin-right: 5vw;
+}
+
+.title1 {
+  text-align: center;
+  letter-spacing: 0.1vw;
+  font-size: 2em;
+}
+
+#picture1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.picture1 {
+  width: 15vw;
+  height: 20vh;
+}
+
+.html-css {
+  text-align: center;
+  font-size: 1.5em;
+  margin-bottom: -15px;
+}
+
+.explanation1 {
+  padding-left: 1vw;
+  padding-right: 1vw;
+  font-size: 1.25em;
+}
+
+.box2 {
+  margin-top: 0;
+  width: 30%;
+  border: 1px solid #f9f9f9;
+  background-color: #f9f9f9;
+  margin-right: 5vw;
+  flex: 1;
+  align-self: stretch;
+}
+
+.title2 {
+  text-align: center;
+  letter-spacing: 0.1vw;
+  font-size: 2em;
+}
+
+#picture2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.picture2 {
+  width: 15vw;
+  height: 20vh;
+}
+
+.js {
+  text-align: center;
+  font-size: 1.5em;
+  margin-bottom: -15px;
+}
+
+.explanation2 {
+  padding-left: 1vw;
+  padding-right: 1vw;
+  font-size: 1.25em;
+}
+
+.box3 {
+  width: 25%;
+  border: 1px solid #f9f9f9;
+  background-color: #f9f9f9;
+  flex: 1;
+}
+
+.title3 {
+  text-align: center;
+  letter-spacing: 0.1vw;
+  font-size: 2em;
+}
+
+#picture3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.picture3 {
+  width: 15vw;
+  height: 20vh;
+}
+
+.react {
+  text-align: center;
+  font-size: 1.5em;
+  margin-bottom: -15px;
+}
+
+.explanation3 {
+  padding-left: 1vw;
+  padding-right: 1vw;
+  font-size: 1.25em;
 }
