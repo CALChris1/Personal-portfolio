@@ -1,0 +1,277 @@
+body {
+  padding: 0px;
+  margin: 0px;
+}
+
+.menu-bar {
+  height: 20vh;
+  display: flex;
+  flex-direction: row;
+}
+
+.logo {
+  height: 14vh;
+  width: 12vw;
+  padding: 15px;
+  padding-left: 2vw;
+}
+
+#home {
+  padding-left: 36vw;
+  padding-top: 5vh;
+  padding-right: 2vw;
+  font-size: x-large;
+  color: cornflowerblue;
+  text-decoration: none;
+}
+
+#portfolio {
+  padding-left: 2vw;
+  padding-top: 5vh;
+  padding-right: 2vw;
+  font-size: x-large;
+  color: cornflowerblue;
+  text-decoration: none;
+}
+
+#about {
+  padding-left: 2vw;
+  padding-top: 5vh;
+  padding-right: 2vw;
+  font-size: x-large;
+  color: cornflowerblue;
+  text-decoration: none;
+}
+
+#testimonials {
+  padding-left: 2vw;
+  padding-top: 5vh;
+  padding-right: 2vw;
+  font-size: x-large;
+  color: cornflowerblue;
+  text-decoration: none;
+}
+
+#contact {
+  border: 1px solid cornflowerblue;
+  background-color: cornflowerblue;
+  border-radius: 10px;
+  text-align: center;
+  width: 100px;
+  height: 35px;
+  padding-left: 2vw;
+  margin-top: 3vh;
+  font-size: x-large;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+}
+
+#home:hover,
+#portfolio:hover,
+#about:hover,
+#testimonials:hover,
+#contact:hover,
+#home:active,
+#portfolio:active,
+#about:active,
+#testimonials:active,
+#contact:active {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.contact {
+  padding-left: 5vw;
+  display: flex;
+  flex-direction: row;
+}
+
+.left {
+  width: 55%;
+  border: 1px solid #d8d8d8;
+  background-color: #d8d8d8;
+  padding: 20px;
+  padding-top: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.get-in {
+  margin-bottom: 5px;
+  font-size: 3em;
+  letter-spacing: 0.1vw;
+}
+
+.message {
+  font-size: 1.6em;
+  letter-spacing: 0.05vw;
+}
+.about {
+  font-size: 1.4em;
+  margin-bottom: -10px;
+}
+
+.line {
+  border: none;
+  border-top: 1px solid lightgrey;
+  margin: 12px 0;
+  width: 110px;
+}
+
+a {
+  color: red;
+}
+
+#name {
+  width: 50vw;
+  height: 5vh;
+}
+
+#email {
+  width: 50vw;
+  height: 5vh;
+}
+
+#number {
+  width: 50vw;
+  height: 5vh;
+}
+
+.detail {
+  font-size: 1.4em;
+  margin-bottom: -10px;
+}
+.line2 {
+  border: none;
+  border-top: 1px solid lightgrey;
+  margin: 12px 0;
+  width: 165px;
+}
+
+.labels {
+  font-size: 1.3em;
+}
+
+.general {
+  font-size: 1.4em;
+  margin-bottom: -10px;
+}
+
+.line3 {
+  border: none;
+  border-top: 1px solid lightgrey;
+  margin: 12px 0;
+  width: 175px;
+}
+
+#message {
+  width: 50vw;
+  height: 15vh;
+}
+
+.submit {
+  height: 5vh;
+  width: 10vw;
+  font-size: 1.1em;
+  background-color: cornflowerblue;
+}
+
+.right {
+  width: 45%;
+  padding: 20px;
+  padding-top: 10px;
+  padding-left: 6vw;
+  padding-right: 30px;
+  display: flex;
+  flex-direction: column;
+  font-size: 1.2em;
+}
+
+.contact-info {
+  font-size: 2em;
+  letter-spacing: 0.07vw;
+}
+
+.instagram {
+  margin-top: 10px;
+}
+
+#instagram {
+  color: black;
+  border-bottom: 2px cornflowerblue;
+}
+
+.logo1 {
+  height: 3vh;
+  width: 2vw;
+  display: inline-block;
+  margin-bottom: -5px;
+}
+
+.ending1 {
+  margin-top: 5px;
+}
+
+.whatsapp {
+  margin-top: 10px;
+}
+
+#whatsapp {
+  color: black;
+}
+
+.logo2 {
+  height: 3vh;
+  width: 2vw;
+  display: inline-block;
+  margin-bottom: -5px;
+}
+
+.ending2 {
+  margin-top: 5px;
+}
+
+.gmail {
+  margin-top: 10px;
+}
+
+#gmail {
+  color: black;
+}
+
+.logo3 {
+  height: 3vh;
+  width: 2vw;
+  display: inline-block;
+  margin-bottom: -5px;
+}
+
+.ending3 {
+  margin-top: 5px;
+}
+
+.github {
+  margin-top: 10px;
+}
+
+#github {
+  color: black;
+  border-bottom: 2px cornflowerblue;
+}
+
+.logo4 {
+  height: 3vh;
+  width: 2vw;
+  display: inline-block;
+  margin-bottom: -5px;
+}
+
+.ending4 {
+  margin-top: 5px;
+}
+
+#closing {
+  font-size: 1.3em;
+  color: cornflowerblue;
+}
