@@ -1,12 +1,19 @@
 body {
   padding: 0px;
   margin: 0px;
+  overflow: hidden; /* Prevents scrolling */
+  background-image: url(assets/sadpuppy.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .menu-bar {
   height: 20vh;
   display: flex;
   flex-direction: row;
+  background-color: transparent;
+  z-index: 2;
 }
 
 #home {
@@ -14,7 +21,7 @@ body {
   padding-top: 4vh;
   padding-right: 2vw;
   font-size: x-large;
-  color: cornflowerblue;
+  color: white;
   text-decoration: none;
 }
 
@@ -23,7 +30,7 @@ body {
   padding-top: 4vh;
   padding-right: 2vw;
   font-size: x-large;
-  color: cornflowerblue;
+  color: white;
   text-decoration: none;
 }
 
@@ -32,7 +39,7 @@ body {
   padding-top: 4vh;
   padding-right: 2vw;
   font-size: x-large;
-  color: cornflowerblue;
+  color: white;
   text-decoration: none;
 }
 
@@ -41,7 +48,7 @@ body {
   padding-top: 4vh;
   padding-right: 2vw;
   font-size: x-large;
-  color: cornflowerblue;
+  color: white;
   text-decoration: none;
 }
 
@@ -74,20 +81,15 @@ body {
   font-weight: bold;
 }
 
-.dog {
-  height: 100vh;
-  width: 100vw;
+.apology {
+  height: 80vh;
   display: flex;
-  align-items: center;
   justify-content: center;
-  background-image: url(assets/sadpuppy.jpg);
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  align-items: center;
 }
 
 .sad {
-  color: cornflowerblue;
+  color: white;
   font-size: 50px;
+  text-align: center;
 }
