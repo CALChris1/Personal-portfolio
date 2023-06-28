@@ -16,9 +16,16 @@ body {
   z-index: 2;
 }
 
+.logo {
+  height: 14vh;
+  width: 12vw;
+  padding: 15px;
+  padding-left: 2vw;
+}
+
 #home {
-  padding-left: 32vw;
-  padding-top: 4vh;
+  padding-left: 36vw;
+  padding-top: 5vh;
   padding-right: 2vw;
   font-size: x-large;
   color: white;
@@ -27,7 +34,7 @@ body {
 
 #portfolio {
   padding-left: 2vw;
-  padding-top: 4vh;
+  padding-top: 5vh;
   padding-right: 2vw;
   font-size: x-large;
   color: white;
@@ -36,7 +43,7 @@ body {
 
 #about {
   padding-left: 2vw;
-  padding-top: 4vh;
+  padding-top: 5vh;
   padding-right: 2vw;
   font-size: x-large;
   color: white;
@@ -45,7 +52,7 @@ body {
 
 #testimonials {
   padding-left: 2vw;
-  padding-top: 4vh;
+  padding-top: 5vh;
   padding-right: 2vw;
   font-size: x-large;
   color: white;
@@ -60,7 +67,7 @@ body {
   width: 100px;
   height: 35px;
   padding-left: 2vw;
-  margin-top: 2vh;
+  margin-top: 3vh;
   font-size: x-large;
   padding: 10px;
   color: white;
