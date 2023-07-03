@@ -1,22 +1,22 @@
-body {
+/* body {
   padding: 0px;
   margin: 0px;
   overflow: hidden; /* Prevents scrolling */
-  background-image: url(assets/sadpuppy.jpg);
+  /* background-image: url(assets/sadpuppy.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-}
+} */
 
-.menu-bar {
+/* .menu-bar {
   height: 20vh;
   display: flex;
   flex-direction: row;
   background-color: transparent;
   z-index: 2;
-}
+} */
 
-.logo {
+/* .logo {
   height: 14vh;
   width: 12vw;
   padding: 15px;
@@ -39,9 +39,9 @@ body {
   font-size: x-large;
   color: white;
   text-decoration: none;
-}
+} */
 
-#about {
+/* #about {
   padding-left: 2vw;
   padding-top: 5vh;
   padding-right: 2vw;
@@ -52,14 +52,14 @@ body {
 
 #testimonials {
   padding-left: 2vw;
-  padding-top: 5vh;
-  padding-right: 2vw;
+  padding-top: 5vh; */
+  /* padding-right: 2vw;
   font-size: x-large;
   color: white;
   text-decoration: none;
-}
+} */
 
-#contact {
+/* #contact {
   border: 1px solid cornflowerblue;
   background-color: cornflowerblue;
   border-radius: 10px;
@@ -86,17 +86,17 @@ body {
 #contact:active {
   text-decoration: underline;
   font-weight: bold;
-}
+} */
 
-.apology {
+/* .apology {
   height: 80vh;
   display: flex;
   justify-content: center;
   align-items: center;
-}
+} */
 
-.sad {
+/* .sad {
   color: white;
   font-size: 50px;
   text-align: center;
-}
+} */
