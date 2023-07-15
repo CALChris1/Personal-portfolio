@@ -1,6 +1,8 @@
 body {
   padding: 0px;
   margin: 0px;
+  font-family: var(--font-copy);
+  font-family: "Poppins", sans-serif;
 }
 
 .menu-bar {
@@ -17,7 +19,7 @@ body {
 }
 
 #home {
-  padding-left: 36vw;
+  padding-left: 35vw;
   padding-top: 5vh;
   padding-right: 2vw;
   font-size: x-large;
@@ -101,7 +103,7 @@ body {
 
 .photo {
   padding-left: 15vw;
-  margin-top: 17px;
+  margin-top: 20px;
   margin-right: 10px;
 }
 
@@ -114,4 +116,100 @@ body {
   padding-right: 15vw;
   font-size: 1.25em;
   letter-spacing: 0.05vw;
+}
+
+@media screen and (max-width: 1300px) {
+  #home {
+    padding-left: 32vw;
+  }
+  #bund {
+    height: 13vh;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  #bund {
+    height: 15.5vh;
+  }
+}
+
+@media screen and (max-width: 1190px) {
+  #home {
+    padding-left: 28vw;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  #home {
+    padding-left: 24vw;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  #home {
+    padding-left: 20vw;
+  }
+
+  .logo {
+    height: 13vh;
+    width: 17.5vw;
+  }
+  .essay {
+    padding-left: 5vw;
+    padding-right: 5vw;
+  }
+
+  .photo {
+    padding-left: 5vw;
+  }
+
+  .first-para {
+    padding-right: 5vw;
+  }
+
+  #bund {
+    height: 12vh;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .logo {
+    height: 12vh;
+    width: 17vw;
+  }
+
+  .essay {
+    padding-left: 3vw;
+    padding-right: 5vw;
+  }
+
+  .photo {
+    padding-left: 3vw;
+  }
+
+  #bund {
+    height: 13vh;
+    width: 11vh;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .logo {
+    height: 11vh;
+    width: 15vw;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .logo {
+    height: 9vh;
+    width: 14vw;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .logo {
+    height: 9vh;
+    width: 13vw;
+  }
 }
