@@ -1,6 +1,7 @@
 body {
   padding: 0px;
   margin: 0px;
+  font-family: "Poppins", sans-serif;
 }
 
 .menu-bar {
@@ -104,6 +105,7 @@ body {
 
 .boxes {
   display: flex;
+  flex-wrap: nowrap;
   flex-direction: row;
   justify-content: center;
   align-items: center;
@@ -149,7 +151,6 @@ body {
 }
 
 .box2 {
-  margin-top: 0;
   width: 30%;
   border: 1px solid #f9f9f9;
   background-color: #f9f9f9;
@@ -219,4 +220,139 @@ body {
   padding-left: 1vw;
   padding-right: 1vw;
   font-size: 1.25em;
+}
+
+@media screen and (max-width: 1300px) {
+  #home {
+    padding-left: 32vw;
+  }
+}
+
+@media screen and (max-width: 1190px) {
+  #home {
+    padding-left: 28vw;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  #home {
+    padding-left: 24vw;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  #home {
+    padding-left: 20vw;
+  }
+
+  .logo {
+    height: 13vh;
+    width: 17.5vw;
+  }
+
+  .boxes {
+    flex-direction: column;
+    padding-left: 10vw;
+    padding-right: 10vw;
+  }
+
+  .box1,
+  .box2,
+  .box3 {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+
+  .box1 {
+    margin-left: 5vw;
+  }
+
+  .explanation1,
+  .explanation2,
+  .explanation3 {
+    margin-left: 1.5vw;
+    margin-right: 1.5vw;
+  }
+
+  .description {
+    padding-left: 3vw;
+    padding-right: 3vw;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .boxes {
+    flex-direction: column;
+    padding-left: 10vw;
+    padding-right: 10vw;
+  }
+
+  .logo {
+    height: 12vh;
+    width: 17vw;
+  }
+
+  .picture1,
+  .picture2,
+  .picture3 {
+    height: 18vh;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .logo {
+    height: 11vh;
+    width: 15vw;
+  }
+
+  .picture1,
+  .picture2,
+  .picture3 {
+    height: 16.5vh;
+    width: 17vw;
+  }
+
+  .description {
+    font-size: 1.15em;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .boxes {
+    flex-direction: column;
+    padding-left: 7vw;
+    padding-right: 7vw;
+  }
+
+  .logo {
+    height: 9vh;
+    width: 14vw;
+  }
+
+  .picture1,
+  .picture2,
+  .picture3 {
+    height: 17vh;
+    width: 20vw;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .boxes {
+    flex-direction: column;
+    padding-left: 6vw;
+    padding-right: 6vw;
+  }
+
+  .logo {
+    height: 9vh;
+    width: 13vw;
+  }
+
+  .picture1,
+  .picture2,
+  .picture3 {
+    height: 17vh;
+    width: 20vw;
+  }
 }
