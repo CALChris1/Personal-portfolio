@@ -97,14 +97,15 @@ body {
 }
 
 .photo-para {
-  display: flex;
-  flex-direction: row;
+  /* display: flex; */
+  /* flex-direction: row; */
 }
 
 .photo {
   padding-left: 15vw;
   margin-top: 20px;
   margin-right: 10px;
+  float: left;
 }
 
 #bund {
