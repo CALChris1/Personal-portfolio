@@ -285,3 +285,20 @@ body {
   height: 66vh;
   width: 60vw;
 }
+
+@media screen and (max-width: 1300px) {
+  .project-title {
+    background: none;
+    border: none;
+  }
+
+  .top-left2, .top-left3 {
+    color: black;
+  }
+
+  .project-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
