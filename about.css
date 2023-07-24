@@ -233,11 +233,6 @@ a:hover {
   letter-spacing: 0.05vw;
 }
 
-.photo-para {
-  /* display: flex;
-  flex-direction: row; */
-}
-
 .photo {
   padding-left: 15vw;
   margin-top: 0px;
@@ -262,7 +257,7 @@ a:hover {
     padding-left: 32vw;
   }
   #bund {
-    height: 13vh;
+    height: 15vh;
   }
 }
 
