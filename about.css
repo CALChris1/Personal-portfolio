@@ -204,14 +204,17 @@ body {
   top: 0;
   z-index: 1;
   overflow: hidden;
+  width: 20%;
+  height: 40%;
+  font-size: 1.6rem;
 }
-
 a {
   display: flex;
   flex-direction: column;
   margin-bottom: 1rem;
   color: white;
   text-decoration: none;
+  padding-bottom: 1.6rem;
 }
 
 a:active,
@@ -349,12 +352,35 @@ a:hover {
     height: 11vh;
     width: 15vw;
   }
+  .first-para {
+    font-size: 1.2rem;
+  }
+
+  .essay {
+    font-size: 1.2rem;
+  }
+
+  a {
+    font-size: 1.4rem;
+  }
 }
 
 @media screen and (max-width: 600px) {
   .logo {
     height: 9vh;
     width: 14vw;
+  }
+
+  .first-para {
+    font-size: 1.1rem;
+  }
+
+  .essay {
+    font-size: 1.1rem;
+  }
+
+  .about-chris {
+    font-size: 2.4rem;
   }
 }
 

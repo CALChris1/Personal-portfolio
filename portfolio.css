@@ -202,6 +202,9 @@ body {
   position: fixed;
   top: 0;
   z-index: 1;
+  width: 20%;
+  height: 40%;
+  font-size: 1.6rem;
 }
 
 a {
@@ -210,6 +213,7 @@ a {
   margin-bottom: 1rem;
   color: white;
   text-decoration: none;
+  padding-bottom: 1.7rem;
 }
 
 a:active,
@@ -712,6 +716,15 @@ h6 {
     width: 15vw;
   }
 
+  .description {
+    padding-left: 1rem;
+    padding-right: 0.5rem;
+  }
+
+  a {
+    font-size: 1.4rem;
+  }
+
   .front-end {
     font-size: 2.2rem;
   }
@@ -733,7 +746,7 @@ h6 {
   }
 
   .description {
-    font-size: 1.15rem;
+    font-size: 1.05rem;
   }
 }
 
@@ -741,6 +754,11 @@ h6 {
   .logo {
     height: 9vh;
     width: 14vw;
+  }
+
+  .description {
+    padding-left: 0.7rem;
+    padding-right: 0.5rem;
   }
 
   #picture1,
@@ -776,6 +794,10 @@ h6 {
 
   .front-end {
     font-size: 1.8rem;
+  }
+
+  .description {
+    font-size: 1rem;
   }
 
   h6 {

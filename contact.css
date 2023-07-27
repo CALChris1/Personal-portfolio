@@ -179,7 +179,6 @@ body {
   padding-top: calc(var(--hamburger-margin) + var(--hamburger-margin) + 1rem);
   background-color: var(--foreground);
   color: var(--background);
-  max-width: 500px;
   min-height: 22vh;
   position: fixed;
   top: 0;
@@ -199,6 +198,9 @@ body {
   position: fixed;
   top: 0;
   z-index: 1;
+  width: 20%;
+  height: 40%;
+  font-size: 1.6rem;
 }
 
 #links {
@@ -207,6 +209,7 @@ body {
   margin-bottom: 1rem;
   color: white;
   text-decoration: none;
+  padding-bottom: 1.6rem;
 }
 
 #links:active,
@@ -518,6 +521,11 @@ body {
     width: 15vw;
   }
 
+
+  .left {
+    font-size: 0.9rem;
+  }
+
   .contact {
     width: 100%;
     padding-left: 3vw;
@@ -529,6 +537,24 @@ body {
   .logo3,
   .logo4 {
     width: 4vw;
+  }
+
+  #links {
+    font-size: 1.4rem;
+  }
+
+  .submit {
+    width: 20%;
+  }
+
+  .right {
+    width: 60%;
+    font-size: 1.1rem;
+  }
+
+  #closing {
+    width: 100vw;
+    font-size: 1.5rem;
   }
 }
 @media screen and (max-width: 600px) {
@@ -547,11 +573,23 @@ body {
   .message {
     font-size: 1.3em;
   }
+
+  .submit {
+    width: 22%;
+  }
+
+  .left {
+    font-size: 0.85rem;
+  }
 }
 
 @media screen and (max-width: 500px) {
   .logo {
-    height: 8vh;
-    width: 15vw;
+    height: 9vh;
+    width: 16vw;
+  }
+
+  submit {
+    width: 25%;
   }
 }
