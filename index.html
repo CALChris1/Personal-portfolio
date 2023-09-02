@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+  <section class="page-wrapper">
     <section class="menu-bar">
       <div id="logo">
         <img class="logo" src="assets/programmer.png" alt="Logo" />
@@ -35,63 +36,69 @@
       </aside>
     </section>
 
-    <section class="introduction">
-      <div>
-        <h1 class="learning">Learning to Code</h1>
-        <p class="description">
-          Hi! I'm Christian! I started my coding journey in March this year and
-          have really enjoyed my time so far.
-        </p>
-      </div>
+    <section class="content-wrapper">
+      <section class="introduction">
+        <div>
+          <h1 class="learning">Learning to Code</h1>
+          <p class="description">
+            Hi! I'm Christian! I started my coding journey in March this year and
+            have really enjoyed my time so far.
+          </p>
+        </div>
+      </section>
+
+<!--      <section class="boxes-wrapper">-->
+        <section class="boxes">
+          <div class="box1">
+            <h1 class="title1">Completed</h1>
+            <div id="picture1">
+              <img class="picture1 icons" src="assets/checked.png" alt="Completed logo" />
+            </div>
+            <h3 class="html-css">HTML & CSS</h3>
+            <p class="explanation1">
+              I am proficient in HTML and CSS and have been learning it for the last
+              few months. I have made a few projects using CSS and HTML and have
+              just started to make them responsive.
+            </p>
+          </div>
+
+          <div class="box2">
+            <h1 class="title2">In Progress</h1>
+            <div id="picture2">
+              <img
+                class="picture2 icons"
+                src="assets/settings.png"
+                alt="In Progress logo"
+              />
+            </div>
+            <h3 class="js">Java Script</h3>
+            <p class="explanation2">
+              I am currently learning Java Script and have just finished learning
+              about about the DOM. I aim to continue working through the java script
+              modules so I can apply what I learnt into a real project.
+            </p>
+          </div>
+
+          <div class="box3">
+            <h1 class="title3">Upcoming</h1>
+            <div id="picture3">
+              <img
+                class="picture3 icons"
+                src="assets/upcoming.png"
+                alt="Completed logo"
+              />
+            </div>
+            <h3 class="react">React</h3>
+            <p class="explanation3">
+              Colt Steele just added 10 hours of react videoes into the Udemy
+              course. I am extremely excited to learn about this new framework in
+              the near future and hope I can incoporate it in my upcoming projects.
+            </p>
+          </div>
+        </section>
+<!--      </section>-->
     </section>
 
-    <section class="boxes">
-      <div class="box1">
-        <h1 class="title1">Completed</h1>
-        <div id="picture1">
-          <img class="picture1" src="assets/checked.png" alt="Completed logo" />
-        </div>
-        <h3 class="html-css">HTML & CSS</h3>
-        <p class="explanation1">
-          I am proficient in HTML and CSS and have been learning it for the last
-          few months. I have made a few projects using CSS and HTML and have
-          just started to make them responsive.
-        </p>
-      </div>
-
-      <div class="box2">
-        <h1 class="title2">In Progress</h1>
-        <div id="picture2">
-          <img
-            class="picture2"
-            src="assets/settings.png"
-            alt="In Progress logo"
-          />
-        </div>
-        <h3 class="js">Java Script</h3>
-        <p class="explanation2">
-          I am currently learning Java Script and have just finished learning
-          about about the DOM. I aim to continue working through the java script
-          modules so I can apply what I learnt into a real project.
-        </p>
-      </div>
-
-      <div class="box3">
-        <h1 class="title3">Upcoming</h1>
-        <div id="picture3">
-          <img
-            class="picture3"
-            src="assets/upcoming.png"
-            alt="Completed logo"
-          />
-        </div>
-        <h3 class="react">React</h3>
-        <p class="explanation3">
-          Colt Steele just added 10 hours of react videoes into the Udemy
-          course. I am extremely excited to learn about this new framework in
-          the near future and hope I can incoporate it in my upcoming projects.
-        </p>
-      </div>
-    </section>
+  </section>
   </body>
 </html>
